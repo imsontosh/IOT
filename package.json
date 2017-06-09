@@ -1,0 +1,18 @@
+{
+  "name": "iot",
+  "version": "1.0.0",
+  "description": "Arduino communicating with Node.js Experiment.\r To make this work you will need to download the socket.io and serialPort\r modules in the node_modules folder.",
+  "main": "index.js",
+  "dependencies": {
+    "blynk-library": "^0.4.7",
+    "socket.io": "^2.0.2",
+    "serialport": "^4.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
